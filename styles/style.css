@@ -71,7 +71,6 @@ button {
     margin-bottom: -12px;
 }
 
-
 button:hover {
     background-color: #4cae4c;
 }
@@ -162,11 +161,13 @@ input[type="radio"] {
     border-radius: 8px;
 }
 
+#header {
+    display: flex;
+    justify-content: space-between;
+}
 #timeRemaining {
     font-size: 14px;
     font-style: italic;
     color: #333;
-    margin: 0 auto;
-    margin-top: -35px;
-    margin-bottom: 12px;
+    margin-top: 15px;
 }
